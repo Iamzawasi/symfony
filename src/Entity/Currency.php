@@ -54,9 +54,9 @@ class Currency
         return $this->region;
     }
 
-    public function setRegion(string $regoin): static
+    public function setRegion(string $region): static
     {
-        $this->regoin = $region;
+        $this->region = $region;
 
         return $this;
     }
